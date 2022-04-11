@@ -1,0 +1,31 @@
+.mainTab {
+  font-size: 1.125rem;
+  padding: 4px 1.5rem;
+  border-radius: 1.25rem;
+  margin-right: 1rem;
+  background-color: #ddd;
+  color: #818181;
+  display: inline-block;
+  height: fit-content;
+}
+.mainTabActive {
+  background-color: #ffd345;
+  color: #000;
+}
+
+.mainTabMini {
+  font-size: 14px;
+  padding: 2px 0.75rem;
+  border-radius: 1.25rem;
+  background-color: #ddd;
+  color: #818181;
+  display: inline-block;
+  height: fit-content;
+}
+.mainTabMini:not(:last-child) {
+  margin-right: 1rem;
+}
+.mainTabMiniActive {
+  background-color: #ffd345;
+  color: #000;
+}

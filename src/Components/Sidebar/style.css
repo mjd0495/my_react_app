@@ -1,0 +1,33 @@
+.sidebar {
+  min-height: 100vh;
+  width: 6rem;
+}
+.sidebarMain {
+  margin: 0 1rem;
+  background-color: #fbfbfb;
+  height: 100%;
+  width: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sidebarMainIcon {
+  color: #ffd345;
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.sidebarIconContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0.4rem 0;
+  margin-bottom: 1rem;
+}
+.sidebarIcon {
+  font-size: 1.5rem;
+  color: #818181;
+}
+.sidebarIconActive {
+  border-right: 4px solid #ffd345;
+}

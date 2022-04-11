@@ -1,0 +1,46 @@
+.navbarCustom {
+  padding-top: 2.5rem;
+}
+.navHeading {
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1;
+  margin: 0;
+}
+.navInputContainer {
+  position: relative;
+  height: 3rem;
+}
+.navbarIcon {
+  font-size: 2rem;
+  color: #818181;
+}
+.navInput {
+  height: 3rem;
+  padding: 0.5rem 1rem;
+  padding-left: 3rem;
+  border-radius: 1.25rem;
+  max-width: 13rem;
+  outline: none;
+  border: 1px solid #ccc;
+}
+.navInputIcon {
+  position: absolute;
+  height: 18px;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.navProfile {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+}
+
+.navAngleDown {
+  width: 2rem;
+}
+
+.navStar {
+  height: 2rem;
+}
